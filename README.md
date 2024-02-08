@@ -11,7 +11,7 @@ Ejecutamos el proyecto de React
 [http://localhost:3000](http://localhost:3000)
 
 Creacion de la Base de datos en Supabase
-### `CREATE TABLE marcas (
+### ```CREATE TABLE marcas (
     id SERIAL PRIMARY KEY,
     nombre VARCHAR(100) UNIQUE NOT NULL,
     pais VARCHAR(100)
@@ -32,6 +32,6 @@ CREATE TABLE productos (
     cantidad INTEGER,
     categoria_id INTEGER REFERENCES categorias(id)
 );
-`
+```
 
 
