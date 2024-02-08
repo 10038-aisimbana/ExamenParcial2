@@ -1,3 +1,7 @@
+# Examen Parcial 2
+Nombre: Adrian Isaee Simbaña Moreira
+NRC: 14386
+
 # Pasos Para la Ejecución
 Intalar todas las dependecias y librerias
 ### `npm install`
@@ -34,5 +38,17 @@ CREATE TABLE productos (
     color VARCHAR(100),
     cantidad INTEGER,
     categoria_id INTEGER REFERENCES categorias(id)
+);
+```
+# IMPORTANTE!!
+Colocar las credenciales respectivas de supabase en el archivo 
+### `supabase.js`
+
+```
+import { createClient } from "@supabase/supabase-js";
+
+export const supabase = createClient(
+    "Url Supabase", 
+    "Key Supabase"
 );
 ```
