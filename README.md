@@ -10,7 +10,8 @@ Ejecutamos el proyecto de React
 ### `npm start`
 [http://localhost:3000](http://localhost:3000)
 
-Creacion de la Base de datos en Supabase
+# Base de datos Supabase
+Ejecutar el script en Supabase
 
 ```
 CREATE TABLE marcas (
@@ -35,5 +36,3 @@ CREATE TABLE productos (
     categoria_id INTEGER REFERENCES categorias(id)
 );
 ```
-
-
