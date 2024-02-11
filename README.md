@@ -52,3 +52,6 @@ export const supabase = createClient(
     "Key Supabase"
 );
 ```
+
+# OJOO 
+Antes de ingresar cualquier producto se debe ingresar una categoría y una marca.
